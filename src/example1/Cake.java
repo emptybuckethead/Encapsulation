@@ -13,8 +13,8 @@ public class Cake {
     //// Both of these properties violate encapsulation rules. All should be
     // declared private scope and should have getter and/or setter methods.
     ///////
-    public int quantity;
-    public int size;
+    public int quantity; //make private
+    public int size; //make private
 
     //// Some of the methods below violate encapsulation rules. Many should
     //   be private, those that have arguments (setters) need validation rules.

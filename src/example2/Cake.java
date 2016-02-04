@@ -30,7 +30,9 @@ public class Cake {
     // Good encapsulation: small number of public methods that use
     // large number of private helper methods. Simplifies the interface
     // to this class from other code.
-    public void make(int quantity) {
+    public void make(int quantity) { 
+        //this will be the order that methods are called 
+        //--make methods private, call from a single public method
         this.setQuantity(quantity);
         this.gatherIngredients();
         this.mixIngredients();
